@@ -1,6 +1,7 @@
 # Rosetta Extentios
-    IF YOU NEED TO COMPLETE 30H , CONTACT US VIA WHATSAPP NUMBER .
-    +212 693094897
+IF YOU NEED TO COMPLETE YOUR 30 HOURS CONTACT US VIA WHATSAPP NUM .
+        +212 693094897
+            
 <font color="green">For personal speacial reasons we have closed The extention. if you have special requests , or you need it for work please contact us in the following number .
 Or contact us via :
     shobee.market@gmail.com</font>
