@@ -1,4 +1,9 @@
-# Rosetta Stonks
+# Rosetta Extentios
+For personal speacial reasons we have closed The extention. if you have special requests , or you need it for work please contact us in the following number .
+
++212 693094897
+or contact us via :
+shobee.market@gmail.com
 
 - [Introduction](#introduction)
 - [Install](#install)
@@ -14,10 +19,10 @@
 
 ## Introduction
 
-RosettaStonks is a browser extension that allows one to add time and validate
+rosettaextention is a browser extension that allows one to add time and validate
 lessons on rosetta stone learning language platform.
 
-> RosettaStonks, and your rosetta stone goes stonks.
+> rosettaextention, and your rosetta stone goes stonks.
 
 ## Install
 
@@ -26,23 +31,23 @@ lessons on rosetta stone learning language platform.
 1. Using github release
 
 To use the extension in a chrome-based browser, you need to:
-- download the file `rosettastonks-chrome.tar.gz` from the latest release on
+- download the file `rosettaextention-chrome.tar.gz` from the latest release on
   your machine.
-- create a folder named `rosettastonks` somewhere on your machine to store the
+- create a folder named `rosettaextention` somewhere on your machine to store the
   extension
-- run the following command in the `rosettastonks` folder.
+- run the following command in the `rosettaextention` folder.
 ```bash
-$ tar xvzf /path/to/rosettastonks-chrome.tar.gz
+$ tar xvzf /path/to/rosettaextention-chrome.tar.gz
 ```
 
 2. Using nix package manager
 
 Instead of the previous commands, if you are on a nix system **supporting
 flakes**, you can run the following commands, which will give your the path to
-the `rosettastonks` folder (named `rosettastonks-chrome`)
+the `rosettaextention` folder (named `rosettaextention-chrome`)
 
 ```bash
-$ nix build --out-link "" --print-out-paths github:m1dugh/RosettaStonks#chrome
+$ nix build --out-link "" --print-out-paths github:m1dugh/rosettaextention#chrome
 ```
 
 **This part if for all users indepently of whether you are using github method
@@ -52,20 +57,20 @@ In your browser:
 - go to `chrome://extensions`
 - check the `Developer mode` toggle
 - click `Load unpacked`
-- Select your `rosettastonks` folder
+- Select your `rosettaextention` folder
 
 ### Firefox based browsers
 
-- download the file `rosettastonks.xpi` from the latest release.
+- download the file `rosettaextention.xpi` from the latest release.
 - alternatively, if using nix package manager with flake support, your can run
   the following command.
 ```bash
-$ nix build --out-link "" --print-out-paths github:m1dugh/RosettaStonks#mozilla
+$ nix build --out-link "" --print-out-paths github:m1dugh/rosettaextention#mozilla
 ```
 - go to `about:addons` in your browser
 - click the settings button and go to `Debug addons`.
 - click `Load Temporary Add-On`
-- select the `rosettastonks.xpi` file in the file picker, or the path the nix
+- select the `rosettaextention.xpi` file in the file picker, or the path the nix
   command gave you.
 
 *Warning: This method only installs the extension temporarily, meaning that if
@@ -151,5 +156,5 @@ To package the extension for firefox, the following command can be ran:
 $ make firefox
 ```
 
-Which will produce `rosettastonks.xpi`, the file for the extension that can be
+Which will produce `rosettaextention.xpi`, the file for the extension that can be
 loaded in firefox.
